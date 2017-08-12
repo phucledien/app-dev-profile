@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="150" id="mEG-hg-Vnp"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="n6b-BA-Oba">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="n6b-BA-Oba" customClass="BorderImage" customModule="dev_profile" customModuleProvider="target">
                                 <rect key="frame" x="16" y="120" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="Upo-Ca-kbu"/>

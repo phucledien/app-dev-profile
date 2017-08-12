@@ -12,6 +12,7 @@
 		3CDCC3461F3EAF220016E317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCC3441F3EAF220016E317 /* Main.storyboard */; };
 		3CDCC3481F3EAF220016E317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCC3471F3EAF220016E317 /* Assets.xcassets */; };
 		3CDCC34B1F3EAF220016E317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCC3491F3EAF220016E317 /* LaunchScreen.storyboard */; };
+		3CDCC3541F3EBF1D0016E317 /* BorderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCC3531F3EBF1D0016E317 /* BorderImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3CDCC3471F3EAF220016E317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CDCC34A1F3EAF220016E317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CDCC34C1F3EAF220016E317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDCC3531F3EBF1D0016E317 /* BorderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3CDCC33F1F3EAF220016E317 /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				3CDCC3521F3EBF010016E317 /* View */,
 				3CDCC3401F3EAF220016E317 /* AppDelegate.swift */,
 				3CDCC3421F3EAF220016E317 /* ViewController.swift */,
 				3CDCC3441F3EAF220016E317 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				3CDCC34C1F3EAF220016E317 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		3CDCC3521F3EBF010016E317 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCC3531F3EBF1D0016E317 /* BorderImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				3CDCC3431F3EAF220016E317 /* ViewController.swift in Sources */,
 				3CDCC3411F3EAF220016E317 /* AppDelegate.swift in Sources */,
+				3CDCC3541F3EBF1D0016E317 /* BorderImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
